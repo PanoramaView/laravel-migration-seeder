@@ -1,0 +1,19 @@
+Esercizio di oggi:
+nome repo: laravel-migration-seeder
+Ciao ragazzi,
+oggi iniziate a pregustare le vacanze che farete alla fine del corso creando una tabella per i pacchetti di viaggio organizzati da un'agenzia turistica e quindi andrete a scrivere i vari migrate necessari.
+
+
+creare migration con
+php artisan make:migration create_nometabella1_table
+
+ const CREATE_PATTERNS = [
+        '/^create_(\w+)_table$/',
+        '/^create_(\w+)$/',
+    ];
+
+    const CHANGE_PATTERNS = [
+        '/_(to|from|in)_(\w+)_table$/',
+        '/_(to|from|in)_(\w+)$/',
+    ];
+
